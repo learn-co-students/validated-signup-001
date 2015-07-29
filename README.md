@@ -1,7 +1,4 @@
----
-tags: delegate,protocol,views
-languages:objc
----
+
 
 # Validated Sign Up
 
