@@ -21,10 +21,9 @@
       * No Digits
     * Password:
       * > 6 characters
-  4. Google for at least *20 minutes* to figure out a method to validate email and make sure there are no digits. You don't need to understand...just find one that works :satisfied: .  If you can't figure it out after 20 minutes, decrypt the `validators.txt` file in this repo on [AESencryption.net](http://aesencryption.net/)  Ask one of the instructors for the password.
-  5. When the user taps return one each field. You should validate it, then present a [UIAlertController](http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html) with an appropriate error message. The alert view should have two buttons: `OK` and `Clear`. When you press `Clear` it should clear the currently editing textfield.
-  6. If the input passes validation, then set the `enabled` property of the next `UITextField` equal to `YES`.
-  7. When the password is correct, enable the sign up button.
+  4. When the user taps return one each field. You should validate it, then present a [UIAlertController](http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html) with an appropriate error message. The alert view should have two buttons: `OK` and `Clear`. When you press `Clear` it should clear the currently editing textfield.
+  5. Start with only the first textfield `enabled`. If a textfield passes validation, then set the `enabled` property of the _next_ textfield to `YES` (and so on and so forth).
+  6. When the final textfield is correct, enable the sign up button.
 
 ## Hints
 
@@ -32,4 +31,4 @@
 
 ## Extra Credit 
 
-  * This lab lends itself to some messy code if you don't put a lot of thought into the software design. How clean can you make the code? Remember each method should be short. Minimal copy-paste. Descriptive Names. Be prepared to defend your code.
+  * This lab lends itself to some messy code if you don't put a lot of thought into the software design. How clean can you make the code? Remember each method should be short. Minimal copy-paste. Descriptive Names.
