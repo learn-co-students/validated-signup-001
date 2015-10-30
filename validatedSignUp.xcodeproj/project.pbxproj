@@ -19,9 +19,7 @@
 		D8E17A5719640AA200F1549F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E17A5619640AA200F1549F /* XCTest.framework */; };
 		D8E17A5819640AA200F1549F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E17A3719640AA200F1549F /* Foundation.framework */; };
 		D8E17A5919640AA200F1549F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E17A3B19640AA200F1549F /* UIKit.framework */; };
-		D8E17A6119640AA200F1549F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E17A5F19640AA200F1549F /* InfoPlist.strings */; };
-		D8E17A6319640AA200F1549F /* validatedSignUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E17A6219640AA200F1549F /* validatedSignUpTests.m */; };
-		E271A43F1BE3AA2600180BC8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E271A43E1BE3AA2600180BC8 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E271A43F1BE3AA2600180BC8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E271A43E1BE3AA2600180BC8 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +49,6 @@
 		D8E17A4F19640AA200F1549F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8E17A5519640AA200F1549F /* validatedSignUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = validatedSignUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E17A5619640AA200F1549F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D8E17A5E19640AA200F1549F /* validatedSignUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "validatedSignUpTests-Info.plist"; sourceTree = "<group>"; };
-		D8E17A6019640AA200F1549F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8E17A6219640AA200F1549F /* validatedSignUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = validatedSignUpTests.m; sourceTree = "<group>"; };
 		E271A43E1BE3AA2600180BC8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				D8E17A3D19640AA200F1549F /* validatedSignUp */,
-				D8E17A5C19640AA200F1549F /* validatedSignUpTests */,
 				D8E17A3619640AA200F1549F /* Frameworks */,
 				D8E17A3519640AA200F1549F /* Products */,
 			);
@@ -133,24 +127,6 @@
 				D8E17A4019640AA200F1549F /* InfoPlist.strings */,
 				D8E17A4319640AA200F1549F /* main.m */,
 				D8E17A4519640AA200F1549F /* validatedSignUp-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D8E17A5C19640AA200F1549F /* validatedSignUpTests */ = {
-			isa = PBXGroup;
-			children = (
-				D8E17A6219640AA200F1549F /* validatedSignUpTests.m */,
-				D8E17A5D19640AA200F1549F /* Supporting Files */,
-			);
-			path = validatedSignUpTests;
-			sourceTree = "<group>";
-		};
-		D8E17A5D19640AA200F1549F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8E17A5E19640AA200F1549F /* validatedSignUpTests-Info.plist */,
-				D8E17A5F19640AA200F1549F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E17A6119640AA200F1549F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E17A6319640AA200F1549F /* validatedSignUpTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +268,6 @@
 				D8E17A4A19640AA200F1549F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D8E17A5F19640AA200F1549F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8E17A6019640AA200F1549F /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
